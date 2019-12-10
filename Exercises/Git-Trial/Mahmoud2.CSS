@@ -1,0 +1,15 @@
+body{
+   background-color:blue;
+}
+.active{
+    color:red;border:5px solid white;background-color: white;
+}
+li{
+    color: white;
+}
+footer{
+color:red ;font:bold;font: italic;
+}
+header{
+    color:red ;font:bold;font: italic;
+}
