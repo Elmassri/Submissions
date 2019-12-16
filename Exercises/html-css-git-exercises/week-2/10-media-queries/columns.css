@@ -1,1 +1,5 @@
 /* Add your own CSS code below */
+.countries {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
