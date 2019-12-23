@@ -1,0 +1,264 @@
+
+.container{
+    padding:0 200px;
+    margin:auto;
+    text-align:center; 
+    max-width: 100%;
+    
+    
+}
+
+#outer-circle {
+    background: black;
+    border-radius: 50%;
+    height:100px;
+    width:100px;
+}
+#inner-circle {
+    position: relative;
+    background:#fff568;
+    border-radius: 50%;
+    height:50px;
+    width:50px;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+#content{
+    display:grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 50px;
+
+}
+#title1{
+    font-size: 50px;
+}
+.sec2{
+        display:grid;
+        grid-template-columns: 49% 2% 49%;
+        text-align: left;
+        margin:20px 0px;
+        line-height: 200%;}
+        .Bygenre{   
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+        .gen{
+            margin-bottom: auto;
+            padding: 0px;
+        }
+
+        .title .round {
+            background-color: black;
+            border-radius: 100%;
+            height: 60px;
+            width: 60px;
+            line-height: 60px;
+            color: #fff;
+        }
+        .title {
+            display: flex;
+            align-items: center;
+           
+        }
+        .tit {
+            padding-left: 20px;
+            font-size: 1.4em;
+            font-weight: 500;
+            font-family: 'Share Tech Mono', monospace;
+        }
+        
+        .genre {
+            display: flex;
+            height: 200px;
+            margin: 40px 0;
+        }
+        .genre11{
+            display: grid;
+            grid-template-rows: 15% 85%;
+            
+            
+        }
+        .sub1{
+            display: flex;
+            height: 200px;
+            
+            
+        }
+        .sub2{
+            display: flex;
+            height: 200px;
+            
+        }
+        .funk {
+            background-color: #F46427;
+            width: 35%;
+        }
+        .soul {
+            background-color: #6CCFF6;
+            width: 15%;
+        
+        }
+        .ska {
+            background-color: #3DB553;
+            width: 13%;
+        }
+        .north {
+            background-color: #F5EC5F;
+            width: 11%;
+        }
+        .mod {
+            background-color: #EE558E;
+            width: 6%;
+        }
+        .jazz {
+            background-color: #E91D26;
+            width: 6%;
+        }
+        .latin {
+            background-color: #714F2C;
+            width: 6%;
+        }
+        .motown {
+            background-color: #682C8E;
+            width: 4%;
+        }
+        .rock {
+            background-color: #FAC68A;
+            width: 4%;
+        }
+        .genre11 .funk1 {
+            background-color: #F46427;
+            border-radius: 100%;
+            height: 40px;
+            width: 40px;
+            line-height: 60px;
+            color: #fff;
+        }
+        .genre11 .rock1 {
+            background-color: #FAC68A;
+            border-radius: 100%;
+            height: 40px;
+            width: 40px;
+            line-height: 60px;
+            color: #fff;
+        }
+        .genre11 .motown1 {
+            background-color: #682C8E;
+            border-radius: 100%;
+            height: 40px;
+            width: 40px;
+            line-height: 60px;
+            color: #fff;
+        }
+        .genre11 .latin1 {
+            background-color: #714F2C;
+            border-radius: 100%;
+            height: 40px;
+            width: 40px;
+            line-height: 60px;
+            color: #fff;
+        }
+        .genre11 .jazz1 {
+            background-color: #E91D26;
+            border-radius: 100%;
+            height: 40px;
+            width: 40px;
+            line-height: 60px;
+            color: #fff;
+        }
+        .genre11 .mod1 {
+            background-color: #EE558E;
+            border-radius: 100%;
+            height: 40px;
+            width: 40px;
+            line-height: 60px;
+            color: #fff;
+        }
+        .genre11 .north1 {
+            background-color: #F5EC5F;
+            border-radius: 100%;
+            height: 40px;
+            width: 40px;
+            line-height: 60px;
+            color: #fff;
+        }
+        .genre11 .ska1 {
+            background-color: #3DB553;
+            border-radius: 100%;
+            height: 40px;
+            width: 40px;
+            line-height: 60px;
+            color: #fff;
+        }
+        .genre11 .soul1 {
+            background-color: #6CCFF6;
+            border-radius: 100%;
+            height: 40px;
+            width: 40px;
+            line-height: 60px;
+            color: #fff;
+        }
+        .genre11 .tit1 {
+            padding:10px 20px;
+            font-size: normal;
+            
+            font-family: 'Share Tech Mono', monospace;
+        }
+        .USA{
+            background-color: #F46427;
+            
+            width: 35%;height: 50px;margin-bottom: 10px;padding: 20px;margin-top: 30px;
+            padding-right: 500px; 
+        }
+        .Jamaica{
+            background-color: #6CCFF6;
+            width: 15%;height: 50px;
+            padding: 20px;margin-bottom: 10px;padding-right: 100px; 
+        
+        }
+        .UK {
+            background-color: #3DB553;
+            width: 13%;height: 50px;padding: 20px;
+            margin-bottom: 10px;padding-right: 50px; 
+        }
+        .France {
+            background-color: #F5EC5F;
+            width: 7%;height: 50px;padding: 20px;margin-bottom: 10px;padding-right: 5px; 
+        }
+        .Brazil {
+            background-color: #EE558E;
+            width: 3px;height: 50px;padding: 20px;margin-bottom: 10px;padding-right: 5px; 
+        }
+        .Sweden {
+            background-color: #E91D26;
+            width: 0.5px;
+            height: 50px;padding: 20px;margin-bottom: 10px;padding-right: 0px; 
+        }
+        .Colombia {
+            background-color: #714F2C;
+            width: 0.5px;height: 50px;padding: 20px;margin-bottom: 10px;padding-right: 0px; 
+        }
+        .Egypt {
+            background-color: #682C8E;
+            width: 0.5px;height: 50px;padding: 20px;margin-bottom: 10px;padding-right: 0px; 
+        }
+        .countrie{
+            text-align: right;
+        }
+        .countrie #place{
+           
+            font-size: 1.4em;
+            font-weight: 500;
+            font-family: 'Share Tech Mono', monospace;
+        }
+        .triangle .tri{
+            margin-top: 50px;
+            width: 0;
+            height: 0;
+            border-left: 250px solid transparent;
+            border-right: 250px solid transparent;
+            border-top: 150px solid #f5ee62;}
+        
+        
+
