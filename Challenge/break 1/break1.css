@@ -253,12 +253,136 @@
             font-family: 'Share Tech Mono', monospace;
         }
         .triangle .tri{
-            margin-top: 50px;
-            width: 0;
-            height: 0;
-            border-left: 250px solid transparent;
-            border-right: 250px solid transparent;
-            border-top: 150px solid #f5ee62;}
+            border-color: #F5EC5F;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    border-width: 200px;
+    border-style: solid;
+    height: 0;
+    width: 0;}
+        .triangle .tri1{
+            display: inline-block;
+    position: absolute;
+    border-color: #71D2FC;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    border-width: 150px;
+    border-style: solid;
+    top: 13%;
+    left: 200px;}
+         .triangle .tri2{
+            display: inline-block;
+    position: absolute;
+    border-color: #fff;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    border-width: 150px;
+    border-style: solid;
+    top: 13%;
+    left: 350px;}
+         .triangle .tri3{
+            display: inline-block;
+    position: absolute;
+    border-color: black;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    border-width: 150px;
+    border-style: solid;
+    top: 18%;
+    left: 450px;}
+        .triangle .tri4{
+            display: inline-block;
+    position: absolute;
+    border-color: #F46427;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    border-width: 140px;
+    border-style: solid;
+    top: 20%;
+    left: 550px;}
+        .triangle .tri5{
+            display: inline-block;
+    position: absolute;
+    border-color: #F21C28;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    border-width: 130px;
+    border-style: solid;
+    top: 22%;
+    left: 650px;
+            }
+        .triangle .tri6{
+            display: inline-block;
+    position: absolute;
+    border-color: #3DB553;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    border-width: 50px;
+    border-style: solid;
+    top: 40%;
+    left: 800px;
+            }
+        .triangle .tri7{
+            display: inline-block;
+    position: absolute;
+    border-color: #E64F86;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    border-width: 50px;
+    border-style: solid;
+    top: 41%;
+    left: 850px;}
+         .triangle .tri8{
+            display: inline-block;
+            position: absolute;
+            border-color: #7D7D7D;
+            border-right-color: transparent;
+            border-bottom-color: transparent;
+            border-left-color: transparent;
+            border-width: 20px;
+            border-style: solid;
+            top: 49%;
+            left: 900px;}
+        .triangle .tri9{
+            display: inline-block;
+    position: absolute;
+    border-color: #692693;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    border-width: 10px;
+    border-style: solid;
+    top: 50%;
+    left: 920px;}
+            .triangle .tri10{
+                display: inline-block;
+                position: absolute;
+                border-color: #A0522D;
+                border-right-color: transparent;
+                border-bottom-color: transparent;
+                border-left-color: transparent;
+                border-width: 10px;
+                border-style: solid;
+                top: 50%;
+                left: 930px;
+                
+            }
+         .tris{
+            margin-top: 30px;
+            position: relative;
+                             }
+            
+    
+            
+	
         
         
 
