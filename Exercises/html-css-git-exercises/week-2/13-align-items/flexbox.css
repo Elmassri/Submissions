@@ -2,3 +2,20 @@
   display: flex;
 }
 /* Add your own CSS code below */
+.countries--first{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: blue;
+    align-items: flex-start;
+
+
+}
+.countries--second{
+  display: flex   
+  ;
+background-color: crimson;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+} 

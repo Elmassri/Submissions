@@ -3,3 +3,11 @@
 }
 
 /* Add your own CSS code below */
+.country{
+  display: flex;
+  align-items: center;
+
+}
+.country .country--ethiopia{
+  align-self: end;
+}

@@ -1,1 +1,11 @@
 /* Add your own CSS code below */
+.countries  {
+display: flex;
+
+flex-direction: row;
+margin-right: auto;
+}
+
+.country{
+padding: 20px;
+}

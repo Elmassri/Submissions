@@ -1,5 +1,11 @@
 .countries {
   display: flex;
+  
 }
 
 /* Add your own CSS code below */
+.country{
+  display: flex;
+  flex-direction: column;
+  order:1;
+}
