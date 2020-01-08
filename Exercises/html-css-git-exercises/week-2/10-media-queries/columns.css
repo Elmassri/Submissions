@@ -1,4 +1,5 @@
 /* Add your own CSS code below */
+<<<<<<< HEAD
 @media only screen and (min-width: 768px) {
 .countries{
     columns: 2;
@@ -8,3 +9,9 @@
 .countries{
 columns: 3;}
 }
+=======
+.countries {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+>>>>>>> 117dc3acf91488f413ba72798c24c468fd93589b
