@@ -84,7 +84,7 @@ function quit(){
 
 // The following line starts the application
 startApp("Mahmoud ElMassri")
-
+//the following line give you how to use the app
 function help(){
   console.log("hello for hello! , quit and exit for quit");
 }
