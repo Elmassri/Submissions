@@ -41,6 +41,9 @@ function onDataReceived(text) {
   else if(text === 'hello\n'){
     hello();
   }
+  else if(text === 'help\n'){
+    help();
+  }
   else{
     unknownCommand(text);
   }
@@ -82,3 +85,6 @@ function quit(){
 // The following line starts the application
 startApp("Mahmoud ElMassri")
 
+function help(){
+  console.log("hello for hello! , quit and exit for quit");
+}
