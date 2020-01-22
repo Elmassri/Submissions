@@ -33,7 +33,8 @@ function startApp(name){
  * @param  {string} text data typed by the user
  * @returns {void}
  */
-function onDataReceived(text) {
+function onDataReceived(text,Name) {
+  console.log(text);
   if ((text === 'quit\n')||(text === 'exit\n')) {
     quit();
   }

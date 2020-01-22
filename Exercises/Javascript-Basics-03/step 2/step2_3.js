@@ -1,9 +1,8 @@
-const links = document.querySelectorAll("a");
-const text = document.querySelector("p");
-links.forEach(Element => {
-    Element.addEventListener("click", () => {
-      Element.id == "show"
-        ? (text.style.display = "block")
-        : (text.style.display = "none");
-    });
-  });
+function hide() {
+    var x = document.getElementById("text");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }
