@@ -1,20 +1,27 @@
-let divs = document.querySelectorAll(".color");
-let text = document.querySelector("p");
-let green = divs[0];
-let red = divs[1];
-let blue = divs[2];
-
-green.addEventListener("click", () => {
-    text.style.color = "green";
-
-});
-
-red.addEventListener("click", () => {
-  
-  text.style.color = "red";
-});
-
-blue.addEventListener("click", () => {
-    text.style.color = "blue";
-
-});
+function green(){
+  var x=document.getElementById("text");
+  if(x.style.color==="none"){
+    x.style.color="black";
+  }
+  else{
+    x.style.color="green";
+  }
+}
+function red(){
+  var x=document.getElementById("text");
+  if(x.style.color==="none"){
+    x.style.color="black";
+  }
+  else{
+    x.style.color="red";
+  }
+}
+function blue(){
+  var x=document.getElementById("text");
+  if(x.style.color==="none"){
+    x.style.color="black";
+  }
+  else{
+    x.style.color="blue";
+  }
+}
