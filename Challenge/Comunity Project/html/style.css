@@ -134,7 +134,7 @@ div.gallery {
         color: white;
         align-items: center;
         text-align: center;
-        margin-left: 200px;
+     
     }
     .About>p{
         text-align: center;
@@ -176,14 +176,14 @@ div.gallery {
     
       }
       .contact:hover{
-          font-size: 60px;
+          
           text-decoration: underline;
       }
       #menu{
           display: flex;
           justify-content: center;
           align-items: center;
-          margin-left: 250px;
+          
       }
       #test{
           width: 400px;
